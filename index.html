@@ -359,7 +359,7 @@
                   <div class="col-md-3 wow slideInDown">
                       <div class="footer-heading"> RECENT POSTS</div>
                       <div class="media mt-3">
-                          <img src="images/media/1.jpg" class="mr-3" alt="">
+                          <img class="gp" src="images/media/1.jpg" class="mr-3" alt="">
                       <div class="media-body">
                           <h5 class="mt-0">Purple hair style</h5>
                           Cras sit amet nibh libero, in gravida nulla.
@@ -367,7 +367,7 @@
                       </div>
   
                       <div class="media mt-3">
-                          <img src="images/media/2.jpg" class="mr-3" alt="">
+                          <img class="gp" src="images/media/2.jpg" class="mr-3" alt="">
                       <div class="media-body">
                           <h5 class="mt-0">Purple hair style</h5>
                           Cras sit amet nibh libero, in gravida nulla.
@@ -389,12 +389,48 @@
                   </div>
   
   <hr>
-   
+   <div class="footer-endline text-center text-light mt-2 pb-4 wow fadeIn">
+                     website-Designed by Arpit Somani 
+                  </div>
+              </div>
+          </footer>
+		  
+		  
+		  
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     
-	
+	    <script>
+    var wow = new WOW(
+        {
+          boxClass:     'wow',      // animated element css class (default is wow)
+          animateClass: 'animated', // animation css class (default is animated)
+          offset:       0,          // distance to the element when triggering the animation (default is 0)
+          mobile:       true,       // trigger animations on mobile devices (default is true)
+          live:         true,       // act on asynchronously loaded content (default is true)
+          callback:     function(box) {
+            // the callback is fired every time an animation is started
+            // the argument that is passed in is the DOM node being animated
+          },
+          scrollContainer: null,    // optional scroll container selector, otherwise use window,
+          resetAnimation: true,     // reset animation on end (default is true)
+        }
+      );
+      wow.init();
+      </script>
+
+      <script>
+          $(window).scroll(function(){
+              var scroll = $(window).scrollTop();
+              if(scroll<900){
+                  $('.fixed-top').css('background','transparent');
+              } else{
+                  $('.fixed-top').css('background', 'rgba(225,20,147,0.7');
+              }
+          } );
+         
+      </script>
    </body>
 </html>
