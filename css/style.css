@@ -181,6 +181,9 @@ body,
 .btn-pink:hover{
     background-color: #3a3a3a;
 }
+.card-img-top{
+	height:400px;
+}
 .card-img-top:hover{
     transform: scale(1.2);
     transition: 1s;
