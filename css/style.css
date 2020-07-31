@@ -132,3 +132,27 @@ body,html{margin: 0;padding: 0;}
 }
 
 
+
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-inner .item{
+	height: 100%;
+}
+
+.carousel-caption{
+	top:30%;
+	bottom: auto;
+}
+
+.heading{font-size: 60px; text-shadow: 2px 2px #ff0e3d;}
+.sub-heading{font-size: 30px; text-shadow: 2px 2px #ff0e3d;}
+
+.bg-gray{
+    background-color: lightgray;
+}
+.bg-pink{
+    background-color: deeppink;
+    color: white;
+}
