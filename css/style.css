@@ -1,14 +1,18 @@
-body,html{margin: 0;padding: 0;}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
 .navbar {
-  background-color: rgba(0,0,0,0.00);
-	z-index: 1000;
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1000;
 }
 .navbar .navbar-brand {
   color: #f3f8f9;
   background-color: black;
-  color:red;
-  padding:0 5px;
+  color: red;
+  padding: 0 5px;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
@@ -22,12 +26,13 @@ body,html{margin: 0;padding: 0;}
 }
 .navbar .navbar-text a:hover,
 .navbar .navbar-text a:focus {
-  color: #ecdbff; 
+  color: #ecdbff;
 }
 .navbar .navbar-nav .nav-link {
-  color: #f3f8f9;
-  border-radius: .25rem;
-  margin: 0 0.25em;
+  color: #000;
+  background-color: gray;
+  border-radius: 0.25rem;
+  margin: 0 20px;
 }
 .navbar .navbar-nav .nav-link:not(.disabled):hover,
 .navbar .navbar-nav .nav-link:not(.disabled):focus {
@@ -43,7 +48,10 @@ body,html{margin: 0;padding: 0;}
   background-color: #ff356a;
 }
 .navbar .navbar-toggle {
-  border-color: #ff356a;
+  border-color: black;
+}
+.hg {
+  color: #000 !important;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
@@ -131,98 +139,131 @@ body,html{margin: 0;padding: 0;}
   background-color: #ff356a;
 }
 
-
-
 html,
 body,
 .carousel,
 .carousel-inner,
-.carousel-inner .item{
-	height: 100%;
+.carousel-inner .item {
+  height: 100%;
+}
+@media (max-width: 1170px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 95%;
+  }
+}
+@media (max-width: 1000px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 550px;
+  }
+}
+@media (max-width: 800px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 420px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 300px;
+  }
+}
+@media (max-width: 440px) {
+  .carousel,
+  .carousel-inner,
+  .carousel-inner .item {
+    height: 200px;
+  }
+}
+.carousel-caption {
+  top: 30%;
+  bottom: auto;
 }
 
-.carousel-caption{
-	top:30%;
-	bottom: auto;
+.heading {
+  font-size: 60px;
+  text-shadow: 2px 2px #ff0e3d;
+}
+.sub-heading {
+  font-size: 30px;
+  text-shadow: 2px 2px #ff0e3d;
 }
 
-.heading{font-size: 60px; text-shadow: 2px 2px #ff0e3d;}
-.sub-heading{font-size: 30px; text-shadow: 2px 2px #ff0e3d;}
-
-.bg-gray{
-    background-color: lightgray;
+.bg-gray {
+  background-color: lightgray;
 }
-.bg-pink{
-    background-color: deeppink;
-    color: white;
+.bg-pink {
+  background-color: deeppink;
+  color: white;
 }
 
-.icon-text{
-    text-align: center;
-    margin: 20px auto;
-    font-size: 30px;
+.icon-text {
+  text-align: center;
+  margin: 20px auto;
+  font-size: 30px;
 }
 
-
-
-.card{
-    text-align: center;
-    border: none;
+.card {
+  text-align: center;
+  border: none;
 }
-.card-heading{
-    font-size: 25px;
-    font-weight: 600;
-    color: deeppink;
+.card-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: deeppink;
 }
-.btn-pink{
-    background-color: deeppink;
-    transition: 0.5s;
+.btn-pink {
+  background-color: deeppink;
+  transition: 0.5s;
 }
-.btn-pink:hover{
-    background-color: #3a3a3a;
+.btn-pink:hover {
+  background-color: #3a3a3a;
 }
-.card-img-top{
-	height:400px;
+.card-img-top {
+  height: 400px;
 }
-.card-img-top:hover{
-    transform: scale(1.2);
-    transition: 1s;
+.card-img-top:hover {
+  transform: scale(1.2);
+  transition: 1s;
 }
 
-
-
-.bc{
-    text-shadow: 2px 2px #ff0e3d;
-    background-image: url("../images/models/b1.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: top center;
+.bc {
+  text-shadow: 2px 2px #ff0e3d;
+  background-image: url("../images/models/b1.webp");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: fixed;
+  background-position: top center;
 }
-.inner-text{
-    padding: 30px 0;
+.inner-text {
+  padding: 30px 0;
 }
 
-
-.gp{
-	height:100px;
+.gp {
+  height: 100px;
 }
 
-.footer-img{
-    display:block;
-    margin: 10px auto;
+.footer-img {
+  display: block;
+  margin: 10px auto;
 }
-.footer-heading{
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: deeppink;
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: deeppink;
 }
-.footer-list{
-    list-style-type: none;
-    padding-left: 0;
+.footer-list {
+  list-style-type: none;
+  padding-left: 0;
 }
-.footer-list >li >a{
-    color: white;
-    text-decoration: none;
+.footer-list > li > a {
+  color: white;
+  text-decoration: none;
 }

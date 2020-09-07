@@ -1,436 +1,587 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css"
+    />
 
     <title>Men's Store</title>
   </head>
   <body>
-   
-   
-     <nav class="navbar navbar-expand-lg fixed-top">
-  <a class="navbar-brand" href="#">Men's Store</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"><i class="fa fa-bars text-light" aria-hidden="true"></i></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#lp">Latest Products</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " href="#tp">Top Products</a>
-      </li>
-	   <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src="images/slider/S1.jpg" alt="First slide">
-        <div class="carousel-caption d-none d-md-block">
-      <p class="heading animated flipInX delay-1s ">Best Outfit is everything.</p>
-      <p class="sub-heading animated rollIn delay-2s">You will find variety of products</p>
-      <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">New & Fresh</a>
-    </div>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">Men's Store</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"
+          ><i class="fa fa-bars text-light hg" aria-hidden="true"></i
+        ></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#lp">Latest Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tp">Top Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-      
-      <div class="carousel-item">
-        <img class="d-block w-100" src="images/slider/S4.jpg" alt="Second slide">
-        <div class="carousel-caption d-none d-md-block">
-     <p class="heading animated flipInX delay-1s ">Best Outfit is everything.</p>
-      <p class="sub-heading animated rollIn delay-2s">You will find variety of products</p>
-      <a class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s">New & Fresh</a>
-    </div>
+    </nav>
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            class="d-block w-100"
+            src="images/slider/S1.jpg"
+            alt="First slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <p class="heading animated flipInX delay-1s">
+              Best Outfit is everything.
+            </p>
+            <p class="sub-heading animated rollIn delay-2s">
+              You will find variety of products
+            </p>
+            <a
+              class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s"
+              >New & Fresh</a
+            >
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img
+            class="d-block w-100"
+            src="images/slider/S4.jpg"
+            alt="Second slide"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <p class="heading animated flipInX delay-1s">
+              Best Outfit is everything.
+            </p>
+            <p class="sub-heading animated rollIn delay-2s">
+              You will find variety of products
+            </p>
+            <a
+              class="btn btn-lg btn-danger mt-5 animated infinite bounce delay-2s"
+              >New & Fresh</a
+            >
+          </div>
+        </div>
       </div>
-      
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-   
-   
-   
-   <div class="container-fluid">
+
+    <div class="container-fluid">
       <div class="row bg-gray wow slideInDown">
-          <div class="col-md-4">
-              <div class="icon-text">
-                  <i class="fa fa-money"></i>FAST SECQURE PAYMENTS
-              </div>
+        <div class="col-md-4">
+          <div class="icon-text">
+            <i class="fa fa-money"></i>FAST SECQURE PAYMENTS
           </div>
-              <div class="col-md-4 bg-pink">
-                  <div class="icon-text">
-                      <i class="fa fa-star"></i>PREMIUM PRODUCTS
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <div class="icon-text">
-                      <i class="fa fa-truck"></i>FREE & FAST DELIVERY
-                  </div>
-              </div>
-          
+        </div>
+        <div class="col-md-4 bg-pink">
+          <div class="icon-text">
+            <i class="fa fa-star"></i>PREMIUM PRODUCTS
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="icon-text">
+            <i class="fa fa-truck"></i>FREE & FAST DELIVERY
+          </div>
+        </div>
       </div>
-  </div>
-  
-  
-  
-  <div class="container mt-5">
+    </div>
+
+    <div class="container mt-5">
       <div class="row wow flash">
-          <div class="col-md-12 text-center">
-              <h1>LATEST PRODUCTS</h1>
-          </div>
+        <div class="col-md-12 text-center">
+          <h1>LATEST PRODUCTS</h1>
+        </div>
       </div>
-  
+
       <div class="row mt-5">
-          <div class="col-md-3 wow zoomInDown">
-              <div class="card">
-                  <img class="card-img-top img-fluid" alt="img1" src="images/models/16.jfif">
-              <div class="card-body">
-                  <div class="card-heading">
-                      Product 1
-                  </div>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-              </div>
-              </div>
+        <div class="col-md-3 wow zoomInDown">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/16.jfif"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 1</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
           </div>
-  
-          <div class="col-md-3 wow zoomInRight">
-              <div class="card">
-                  <img class="card-img-top img-fluid" alt="img1" src="images/models/14.jfif">
-              <div class="card-body">
-                  <div class="card-heading">
-                      Product 2
-                  </div>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-              </div>
-              </div>
+        </div>
+
+        <div class="col-md-3 wow zoomInRight">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/14.jfif"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 2</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
           </div>
-  
-          <div class="col-md-3 wow zoomInUp">
-              <div class="card">
-                  <img class="card-img-top img-fluid" alt="img1" src="images/b/B3.jfif">
-              <div class="card-body">
-                  <div class="card-heading">
-                      Product 3
-                  </div>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-              </div>
-              </div>
+        </div>
+
+        <div class="col-md-3 wow zoomInUp">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/b/B3.jfif"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 3</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
           </div>
-  
-          <div class="col-md-3 wow zoomInDown">
-              <div class="card">
-                  <img class="card-img-top img-fluid" alt="img1" src="images/models/10.jfif">
-              <div class="card-body">
-                  <div class="card-heading">
-                      Product 4
-                  </div>
-                  <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-              <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-              </div>
-              </div>
+        </div>
+
+        <div class="col-md-3 wow zoomInDown">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/10.jfif"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 4</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
           </div>
+        </div>
       </div>
-  </div>
-  
-  
-  
+    </div>
+
     <div class="container-fluid bc">
       <div class="container pt-5 pb-5">
-          <div class="row inner-text">
-              <div class="col-md-6 text-light">
-                  <h3 classs="wow slideInUp">NEW ARRIVAL</h3>
-                  <h1 class="mt-4 wow slideInDown">SPARKLE BLUE SHIRT</h1>
-                  <a class="btn btn-lg bg-pink text-light mt-3 wow slidwInLeft">SHOP NOW</a>
-              </div>
+        <div class="row inner-text">
+          <div class="col-md-6 text-light">
+            <h3 classs="wow slideInUp">NEW ARRIVAL</h3>
+            <h1 class="mt-4 wow slideInDown">SPARKLE BLUE SHIRT</h1>
+            <a class="btn btn-lg bg-pink text-light mt-3 wow slidwInLeft"
+              >SHOP NOW</a
+            >
           </div>
+        </div>
       </div>
-  </div>
-   
-   
-     <div class="container mt-5">
-      <div class="row wow flash">
-          <div class="col-md-12 text-center">
-              <h1>THE TOP SELLING PRODUCTS</h1>
-          </div>
-      </div>
-	  
-	  <div class="row mt-4 wow bounceIn">
-          <div class="col-md-12">
-          <a class="btn btn-light">TOPS</a>
-              <a class="btn btn-light ml-4">Shirts</a>
-              <a class="btn btn-light ml-4">T-Shirts</a>
-              <a class="btn btn-light ml-4">Jeans</a>
-              <a class="btn btn-light ml-4">Suit</a>
-              <a class="btn btn-light ml-4">Coats</a>
-              <a class="btn btn-light ml-4">Jacket</a>
-              <a class="btn btn-light ml-4">Blazer</a>
-              <a class="btn btn-light ml-4">Jumper</a>
-              
-          </div>
-          </div>
-  
-          <div class="row mt-5">
-              <div class="col-md-3 wow slideInDown">
-                  <div class="card">
-                      <img class="card-img-top img-fluid" alt="img1" src="images/models/1.jpg">
-                  <div class="card-body">
-                      <div class="card-heading">
-                          Product 1
-                      </div>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                  </div>
-                  </div>
-              </div>
-  
-              <div class="col-md-3 wow slideInLeft">
-                  <div class="card">
-                      <img class="card-img-top img-fluid" alt="img1" src="images/models/2.jpg">
-                  <div class="card-body">
-                      <div class="card-heading">
-                          Product 2
-                      </div>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                  </div>
-                  </div>
-              </div>
-  
-              <div class="col-md-3 wow slideInRight">
-                  <div class="card">
-                      <img class="card-img-top img-fluid" alt="img1" src="images/models/3.png">
-                  <div class="card-body">
-                      <div class="card-heading">
-                          Product 3
-                      </div>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                  </div>
-                  </div>
-              </div>
-  
-              <div class="col-md-3 wow slideInUp">
-                  <div class="card">
-                      <img class="card-img-top img-fluid" alt="img1" src="images/models/4.jpg">
-                  <div class="card-body">
-                      <div class="card-heading">
-                          Product 4
-                      </div>
-                      <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                  <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                  </div>
-                  </div>
-              </div>
-  
-              </div>
-			  
-			  
-			   <div class="row mt-5">
-                  <div class="col-md-3 wow flipInX">
-                      <div class="card">
-                          <img class="card-img-top img-fluid" alt="img1" src="images/models/5.jpg">
-                      <div class="card-body">
-                          <div class="card-heading">
-                              Product 5
-                          </div>
-                          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                      <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                      </div>
-                      </div>
-                  </div>
-      
-                  <div class="col-md-3 wow flipInY">
-                      <div class="card">
-                          <img class="card-img-top img-fluid" alt="img1" src="images/models/6.jpg">
-                      <div class="card-body">
-                          <div class="card-heading">
-                              Product 6
-                          </div>
-                          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                      <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                      </div>
-                      </div>
-                  </div>
-      
-                  <div class="col-md-3 wow flipInX">
-                      <div class="card">
-                          <img class="card-img-top img-fluid" alt="img1" src="images/models/7.jpg">
-                      <div class="card-body">
-                          <div class="card-heading">
-                              Product 7
-                          </div>
-                          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                      <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                      </div>
-                      </div>
-                  </div>
-      
-                  <div class="col-md-3 wow flipInY">
-                      <div class="card">
-                          <img class="card-img-top img-fluid" alt="img1" src="images/models/8.png">
-                      <div class="card-body">
-                          <div class="card-heading">
-                              Product 8
-                          </div>
-                          <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                      <a class="btn btn-pink text-light"><i class="fa fa-cart-plus"></i>Add to Cart</a>
-                      </div>
-                      </div>
-                  </div>
-      
-                  </div>
-          </div>
-		  
-		  
-		  <footer class="bg-dark">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-12 pt-5">
-                          <img src="images/logo.png" alt="logo" class="img-fluid footer-img wow slideInDown">
-                      </div>
-                  </div>
-  
-                  <div class="row text-light mt-5">
-                      <div class="col-md-3 wow slideInLeft">
-                          <div class="footer-heading">ABOUT</div>
-                      <p class="footer-text mt-3">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
-                  <img src="images/cards.webp" class="img-fluid mt-2" alt="cart">    
-                  </div>
-                  <div class="col-md-3 wow slideInRight">
-                      <div class="footer-heading">QUESTIONS</div>
-                      <div class="row">
-                          <div class="col-md-6">
-                              <ul class="footer-list mt-3">
-                                  <li><a href="#">About Us</a></li>
-                                  <li><a href="#">Track Orders</a></li>
-                                  <li><a href="#">Returns</a></li>
-                                  <li><a href="#">Jobs</a></li>
-                                  <li><a href="#">Shipping</a></li>
-                                  <li><a href="#">Blog</a></li>
-                              </ul>
-                          </div>
-  
-                          <div class="col-md-6">
-                              <ul class="footer-list mt-3">
-                                  <li><a href="#">About Us</a></li>
-                                  <li><a href="#">Track Orders</a></li>
-                                  <li><a href="#">Returns</a></li>
-                                  <li><a href="#">Jobs</a></li>
-                                  <li><a href="#">Shipping</a></li>
-                                  <li><a href="#">Blog</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-  
-  
-                  <div class="col-md-3 wow slideInDown">
-                      <div class="footer-heading"> RECENT POSTS</div>
-                      <div class="media mt-3">
-                          <img class="gp" src="images/media/1.jpg" class="mr-3" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0">White Shine SHIRT</h5>
-                          Cras sit amet nibh libero, in gravida nulla.
-                      </div>
-                      </div>
-  
-                      <div class="media mt-3">
-                          <img class="gp" src="images/media/2.jpg" class="mr-3" alt="">
-                      <div class="media-body">
-                          <h5 class="mt-0">Cool Bluish Shirt</h5>
-                          Cras sit amet nibh libero, in gravida nulla.
-                      </div>
-                      </div>
-  
-                  </div>
-  
-                  <div class="col-md-3 wow slideInUp">
-                      <div class="footer-heading">
-                          Contact Us
-                      </div>
-                      <p class="footer-text mt-3">
-                      <i class="fa fa-home"></i>: 340 Jagatpura </p>
-                      <p><i class="fa fa-envelope-o"></i> : example@gmail.com</p>
-                      <p><i class="fa fa-phone"></i> : +91 1234567890</p>
-                      <p><i class="fa fa-fax"></i> : 555 885 855</p>
-                  </div>
-                  </div>
-  
-  <hr>
-   <div class="footer-endline text-center text-light mt-2 pb-4 wow fadeIn">
-                     website-Designed by Arpit Somani 
-                  </div>
-              </div>
-          </footer>
-		  
-		  
-		  
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
-    
-	    <script>
-    var wow = new WOW(
-        {
-          boxClass:     'wow',      // animated element css class (default is wow)
-          animateClass: 'animated', // animation css class (default is animated)
-          offset:       0,          // distance to the element when triggering the animation (default is 0)
-          mobile:       true,       // trigger animations on mobile devices (default is true)
-          live:         true,       // act on asynchronously loaded content (default is true)
-          callback:     function(box) {
-            // the callback is fired every time an animation is started
-            // the argument that is passed in is the DOM node being animated
-          },
-          scrollContainer: null,    // optional scroll container selector, otherwise use window,
-          resetAnimation: true,     // reset animation on end (default is true)
-        }
-      );
-      wow.init();
-      </script>
+    </div>
 
-      <script>
-          $(window).scroll(function(){
-              var scroll = $(window).scrollTop();
-              if(scroll<900){
-                  $('.fixed-top').css('background','transparent');
-              } else{
-                  $('.fixed-top').css('background', 'rgba(225,20,147,0.7');
-              }
-          } );
-         
-      </script>
-   </body>
+    <div class="container mt-5">
+      <div class="row wow flash">
+        <div class="col-md-12 text-center">
+          <h1>THE TOP SELLING PRODUCTS</h1>
+        </div>
+      </div>
+
+      <div class="row mt-4 wow bounceIn">
+        <div class="col-md-12">
+          <a class="btn btn-light">TOPS</a>
+          <a class="btn btn-light ml-4">Shirts</a>
+          <a class="btn btn-light ml-4">T-Shirts</a>
+          <a class="btn btn-light ml-4">Jeans</a>
+          <a class="btn btn-light ml-4">Suit</a>
+          <a class="btn btn-light ml-4">Coats</a>
+          <a class="btn btn-light ml-4">Jacket</a>
+          <a class="btn btn-light ml-4">Blazer</a>
+          <a class="btn btn-light ml-4">Jumper</a>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-3 wow slideInDown">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/1.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 1</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow slideInLeft">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/2.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 2</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow slideInRight">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/3.png"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 3</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow slideInUp">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/4.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 4</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-3 wow flipInX">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/5.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 5</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow flipInY">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/6.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 6</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow flipInX">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/7.jpg"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 7</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 wow flipInY">
+          <div class="card">
+            <img
+              class="card-img-top img-fluid"
+              alt="img1"
+              src="images/models/8.png"
+            />
+            <div class="card-body">
+              <div class="card-heading">Product 8</div>
+              <p class="card-text">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+              <a class="btn btn-pink text-light"
+                ><i class="fa fa-cart-plus"></i>Add to Cart</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 pt-5">
+            <img
+              src="images/logo.png"
+              alt="logo"
+              class="img-fluid footer-img wow slideInDown"
+            />
+          </div>
+        </div>
+
+        <div class="row text-light mt-5">
+          <div class="col-md-3 wow slideInLeft">
+            <div class="footer-heading">ABOUT</div>
+            <p class="footer-text mt-3">
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old
+            </p>
+            <img src="images/cards.webp" class="img-fluid mt-2" alt="cart" />
+          </div>
+          <div class="col-md-3 wow slideInRight">
+            <div class="footer-heading">QUESTIONS</div>
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="footer-list mt-3">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Track Orders</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-6">
+                <ul class="footer-list mt-3">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Track Orders</a></li>
+                  <li><a href="#">Returns</a></li>
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Shipping</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow slideInDown">
+            <div class="footer-heading">RECENT POSTS</div>
+            <div class="media mt-3">
+              <img class="gp" src="images/media/1.jpg" class="mr-3" alt="" />
+              <div class="media-body">
+                <h5 class="mt-0">White Shine SHIRT</h5>
+                Cras sit amet nibh libero, in gravida nulla.
+              </div>
+            </div>
+
+            <div class="media mt-3">
+              <img class="gp" src="images/media/2.jpg" class="mr-3" alt="" />
+              <div class="media-body">
+                <h5 class="mt-0">Cool Bluish Shirt</h5>
+                Cras sit amet nibh libero, in gravida nulla.
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 wow slideInUp">
+            <div class="footer-heading">Contact Us</div>
+            <p class="footer-text mt-3">
+              <i class="fa fa-home"></i>: 340 Jagatpura
+            </p>
+            <p><i class="fa fa-envelope-o"></i> : example@gmail.com</p>
+            <p><i class="fa fa-phone"></i> : +91 1234567890</p>
+            <p><i class="fa fa-fax"></i> : 555 885 855</p>
+          </div>
+        </div>
+
+        <hr />
+        <div class="footer-endline text-center text-light mt-2 pb-4 wow fadeIn">
+          website-Designed by Arpit Somani
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+
+    <script>
+      var wow = new WOW({
+        boxClass: "wow", // animated element css class (default is wow)
+        animateClass: "animated", // animation css class (default is animated)
+        offset: 0, // distance to the element when triggering the animation (default is 0)
+        mobile: true, // trigger animations on mobile devices (default is true)
+        live: true, // act on asynchronously loaded content (default is true)
+        callback: function (box) {
+          // the callback is fired every time an animation is started
+          // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null, // optional scroll container selector, otherwise use window,
+        resetAnimation: true, // reset animation on end (default is true)
+      });
+      wow.init();
+    </script>
+
+    <script>
+      $(window).scroll(function () {
+        var scroll = $(window).scrollTop();
+        if (scroll < 900) {
+          $(".fixed-top").css("background", "transparent");
+        } else {
+          $(".fixed-top").css("background", "rgba(225,20,147,0.7");
+        }
+      });
+    </script>
+  </body>
 </html>
